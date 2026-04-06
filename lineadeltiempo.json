@@ -11,151 +11,89 @@
     </style>
 </head>
 <body>
-
     <div id="timeline-embed"></div>
-
     <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
-
     <script>
         var timelineData = {
           "title": {
             "media": {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Goya_-_Casa_de_locos.jpg/800px-Goya_-_Casa_de_locos.jpg",
-              "caption": "Pintura 'Casa de locos' de Francisco de Goya."
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Goya_-_Casa_de_locos.jpg/800px-Goya_-_Casa_de_locos.jpg"
             },
             "text": {
-              "headline": "<span style='font-family:Georgia, serif; font-size:32px;'>Historia de la Psicopatología</span>",
-              "text": "<p style='font-size:16px;'>Una travesía desde las concepciones mágico-religiosas hasta su consolidación como disciplina científica rigurosa.</p>"
+              "headline": "Historia de la Psicopatología",
+              "text": "Una travesía desde las concepciones mágico-religiosas hasta su consolidación científica."
             }
           },
-          "eras": [
-            {
-              "start_date": { "year": "-460" },
-              "end_date": { "year": "1400" },
-              "text": { "headline": "Antigüedad y Edad Media" },
-              "background": { "color": "#0284c7" }
-            },
-            {
-              "start_date": { "year": "1400" },
-              "end_date": { "year": "1800" },
-              "text": { "headline": "Renacimiento e Ilustración" },
-              "background": { "color": "#7c3aed" }
-            },
-            {
-              "start_date": { "year": "1800" },
-              "end_date": { "year": "1900" },
-              "text": { "headline": "Siglo XIX: Clínica y Nosología" },
-              "background": { "color": "#d97706" }
-            },
-            {
-              "start_date": { "year": "1900" },
-              "end_date": { "year": "2025" },
-              "text": { "headline": "Siglo XX: Consolidación Científica" },
-              "background": { "color": "#059669" }
-            }
-          ],
           "events": [
             {
               "start_date": { "year": "-400" },
-              "media": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Hippocrates.jpg",
-                "caption": "Hipócrates, padre de la medicina."
-              },
+              "media": { "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Hippocrates.jpg" },
               "text": {
                 "headline": "Hipócrates y la Teoría de los Humores",
-                "text": "<p><strong>Hipócrates</strong> establece la primera aproximación biológica a las enfermedades mentales. Rechaza el origen demoníaco de la locura y propone que los trastornos (como la melancolía) se deben a un desequilibrio de fluidos corporales.</p>"
+                "text": "Establece la primera aproximación biológica. Rechaza el origen demoníaco de la locura y propone que los trastornos se deben a un desequilibrio de fluidos corporales."
               },
-              "group": "Antecedentes Biológicos",
-              "background": { "color": "#0ea5e9" }
+              "group": "Antecedentes"
             },
             {
               "start_date": { "year": "1409" },
-              "media": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Hospital_dels_folls_de_Val%C3%A8ncia.jpg",
-                "caption": "Hospital de los Inocentes."
-              },
+              "media": { "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Hospital_dels_folls_de_Val%C3%A8ncia.jpg" },
               "text": {
                 "headline": "El Primer Hospital Psiquiátrico",
-                "text": "<p><strong>Juan Gilabert Jofré</strong> funda en Valencia el <em>'Hospital de los Inocentes'</em>. Es considerado el primer centro en Europa dedicado exclusivamente a la asistencia de enfermos mentales, marcando el inicio de la institucionalización.</p>"
+                "text": "Juan Gilabert Jofré funda en Valencia el 'Hospital de los Inocentes'. Considerado el primer centro en Europa dedicado a la asistencia de enfermos mentales."
               },
-              "group": "Institucionalización",
-              "background": { "color": "#8b5cf6" }
+              "group": "Institucionalización"
             },
             {
               "start_date": { "year": "1563" },
-              "media": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Johann_Weyer.jpg",
-                "caption": "Retrato de Johann Weyer."
-              },
+              "media": { "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Johann_Weyer.jpg" },
               "text": {
                 "headline": "Johann Weyer: Fin de la Demonología",
-                "text": "<p>Publica <em>'De praestigiis daemonum'</em>. Weyer argumenta que las supuestas brujas eran en realidad mujeres con trastornos mentales, abogando por un tratamiento médico y empático en lugar de la persecución inquisitorial.</p>"
+                "text": "Publica 'De praestigiis daemonum'. Argumenta que las supuestas brujas eran mujeres con trastornos mentales, abogando por un tratamiento médico."
               },
-              "group": "Institucionalización",
-              "background": { "color": "#8b5cf6" }
+              "group": "Institucionalización"
             },
             {
               "start_date": { "year": "1793" },
-              "media": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Pinel_a_la_Salpetriere.jpg/800px-Pinel_a_la_Salpetriere.jpg",
-                "caption": "Pinel liberando pacientes en La Salpêtrière."
-              },
+              "media": { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Pinel_a_la_Salpetriere.jpg/800px-Pinel_a_la_Salpetriere.jpg" },
               "text": {
                 "headline": "Philippe Pinel y el Tratamiento Moral",
-                "text": "<p><strong>Pinel</strong> ordena liberar de sus cadenas a los enfermos de los asilos parisinos. Introduce el <em>'Tratamiento Moral'</em>, cambiando la concepción del 'loco' como delincuente a la de un paciente que requiere humanismo y observación médica sistemática.</p>"
+                "text": "Pinel ordena liberar de sus cadenas a los enfermos. Introduce el 'Tratamiento Moral', exigiendo humanismo y observación médica sistemática."
               },
-              "group": "Enfoque Clínico",
-              "background": { "color": "#f59e0b" }
+              "group": "Enfoque Clínico"
             },
             {
               "start_date": { "year": "1883" },
-              "media": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Emil_Kraepelin.jpg/800px-Emil_Kraepelin.jpg",
-                "caption": "Emil Kraepelin."
-              },
+              "media": { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Emil_Kraepelin.jpg/800px-Emil_Kraepelin.jpg" },
               "text": {
                 "headline": "Emil Kraepelin: La Nosología Moderna",
-                "text": "<p>Publica su <em>'Compendio de Psiquiatría'</em>. Kraepelin es clave para la consolidación de la psicopatología. Diferenció los trastornos basándose en su curso y desenlace, distinguiendo notablemente la <strong>dementia praecox</strong> (esquizofrenia) de la psicosis maníaco-depresiva.</p>"
+                "text": "Publica su 'Compendio de Psiquiatría'. Diferenció los trastornos basándose en su curso y desenlace, distinguiendo la esquizofrenia de la psicosis maníaco-depresiva."
               },
-              "group": "Enfoque Clínico",
-              "background": { "color": "#f59e0b" }
+              "group": "Enfoque Clínico"
             },
             {
               "start_date": { "year": "1899" },
-              "media": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sigmund_Freud_LIFE.jpg/800px-Sigmund_Freud_LIFE.jpg",
-                "caption": "Sigmund Freud."
-              },
+              "media": { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sigmund_Freud_LIFE.jpg/800px-Sigmund_Freud_LIFE.jpg" },
               "text": {
                 "headline": "Freud y el Inconsciente",
-                "text": "<p><strong>Sigmund Freud</strong> revoluciona la comprensión de las enfermedades mentales con el Psicoanálisis. Introduce la idea de que los síntomas psicopatológicos (como la histeria) tienen raíces en conflictos psíquicos inconscientes y traumas infantiles.</p>"
+                "text": "Revoluciona la disciplina con el Psicoanálisis. Introduce la idea de que los síntomas psicopatológicos tienen raíces en conflictos inconscientes."
               },
-              "group": "Consolidación",
-              "background": { "color": "#10b981" }
+              "group": "Consolidación"
             },
             {
               "start_date": { "year": "1952" },
-              "media": {
-                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/DSM-I_Cover.jpg/800px-DSM-I_Cover.jpg",
-                "caption": "Portada del DSM-I."
-              },
+              "media": { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/DSM-I_Cover.jpg/800px-DSM-I_Cover.jpg" },
               "text": {
                 "headline": "Publicación del DSM-I",
-                "text": "<p>La Asociación Estadounidense de Psiquiatría (APA) publica la primera edición del <em>Manual Diagnóstico y Estadístico de los Trastornos Mentales</em>. Otorga a la disciplina un lenguaje estandarizado global, consolidándola como una rama científica formal.</p>"
+                "text": "La APA publica la primera edición del Manual Diagnóstico y Estadístico de los Trastornos Mentales, otorgando a la disciplina un lenguaje estandarizado."
               },
-              "group": "Consolidación",
-              "background": { "color": "#10b981" }
+              "group": "Consolidación"
             }
           ]
         };
 
-        var timelineOptions = {
-            language: "es",
-            hash_bookmark: true,
-            initial_zoom: 2
-        };
-
-        window.timeline = new TL.Timeline('timeline-embed', timelineData, timelineOptions);
+        window.timeline = new TL.Timeline('timeline-embed', timelineData, {
+            language: "es"
+        });
     </script>
 </body>
 </html>
