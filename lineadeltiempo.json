@@ -1,8 +1,9 @@
 {
   "title": {
     "media": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Goya_-_Casa_de_locos.jpg/800px-Goya_-_Casa_de_locos.jpg",
-      "caption": "Pintura 'Casa de locos' de Francisco de Goya."
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Goya_-_Casa_de_locos.jpg",
+      "caption": "Pintura 'Casa de locos' de Francisco de Goya. (aprox. 1812-1819).",
+      "credit": "Wikimedia Commons"
     },
     "text": {
       "headline": "<span style='font-family:Georgia, serif; font-size:32px;'>Historia de la Psicopatología</span>",
@@ -15,55 +16,14 @@
         "year": "-460"
       },
       "end_date": {
-        "year": "1400"
+        "year": "1952"
       },
       "text": {
-        "headline": "Antigüedad y Edad Media"
+        "headline": "Desarrollo de la Psicopatología como Disciplina Científica",
+        "text": ""
       },
       "background": {
-        "color": "#0284c7"
-      }
-    },
-    {
-      "start_date": {
-        "year": "1400"
-      },
-      "end_date": {
-        "year": "1800"
-      },
-      "text": {
-        "headline": "Renacimiento e Ilustración"
-      },
-      "background": {
-        "color": "#7c3aed"
-      }
-    },
-    {
-      "start_date": {
-        "year": "1800"
-      },
-      "end_date": {
-        "year": "1900"
-      },
-      "text": {
-        "headline": "Siglo XIX: Clínica y Nosología"
-      },
-      "background": {
-        "color": "#d97706"
-      }
-    },
-    {
-      "start_date": {
-        "year": "1900"
-      },
-      "end_date": {
-        "year": "2025"
-      },
-      "text": {
-        "headline": "Siglo XX: Consolidación Científica"
-      },
-      "background": {
-        "color": "#059669"
+        "color": "rgb(235, 252, 235)"
       }
     }
   ],
@@ -73,33 +33,35 @@
         "year": "-400"
       },
       "media": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Hippocrates.jpg",
-        "caption": "Busto de Hipócrates."
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Hippocrates.jpg",
+        "caption": "Busto de Hipócrates. (Siglo III a.C.).",
+        "credit": "Wikimedia Commons"
       },
       "text": {
-        "headline": "La Teoría de los Humores",
-        "text": "<p><strong>Hipócrates</strong> establece la primera aproximación biológica a las enfermedades mentales. Rechaza el origen demoníaco de la locura y propone que los trastornos se deben a un desequilibrio de fluidos corporales:</p><ul><li><strong>Sangre</strong></li><li><strong>Flema</strong></li><li><strong>Bilis Amarilla</strong></li><li><strong>Bilis Negra</strong> (asociada históricamente a la melancolía).</li></ul>"
+        "headline": "Hipócrates y la Teoría de los Humores",
+        "text": "<p><strong>Hipócrates</strong> establece la primera aproximación biológica. Rechaza el origen demoníaco de la locura y propone que los trastornos se deben a un desequilibrio de fluidos corporales (humores): sangre, flema, bilis amarilla y bilis negra.</p>"
       },
       "group": "Antecedentes Biológicos",
       "background": {
-        "color": "#0ea5e9"
+        "color": "rgb(190, 230, 255)"
       }
     },
     {
       "start_date": {
-        "year": "1409"
+        "year": "1486"
       },
       "media": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Hospital_dels_folls_de_Val%C3%A8ncia.jpg",
-        "caption": "Hospital de los Inocentes de Valencia."
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Malleus_Maleficarum_Nuremberg_1494.jpg",
+        "caption": "Portada de una edición de 'Malleus Maleficarum' (1494).",
+        "credit": "Wikimedia Commons"
       },
       "text": {
-        "headline": "El Primer Hospital Psiquiátrico",
-        "text": "<p>El sacerdote <strong>Juan Gilabert Jofré</strong> funda en Valencia el <em>'Hospital de los Inocentes'</em>.</p><blockquote>Fue la primera institución en el mundo occidental dedicada exclusivamente al cuidado y tratamiento de enfermos mentales.</blockquote><p>Este hecho marca el inicio formal de la institucionalización del cuidado psicopatológico.</p>"
+        "headline": "La Demonología: El Malleus Maleficarum",
+        "text": "<p>Publicación de 'Malleus Maleficarum' (El martillo de las brujas). Sistematizó la creencia de que la locura es un castigo divino o posesión demoníaca, legitimando la persecución y quema de brujas.</p>"
       },
-      "group": "Institucionalización",
+      "group": "Demonología Medieval",
       "background": {
-        "color": "#8b5cf6"
+        "color": "rgb(255, 200, 200)"
       }
     },
     {
@@ -108,15 +70,16 @@
       },
       "media": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Johann_Weyer.jpg",
-        "caption": "Retrato de Johann Weyer."
+        "caption": "Retrato de Johann Weyer.",
+        "credit": "Wikimedia Commons"
       },
       "text": {
-        "headline": "Johann Weyer: Fin de la Demonología",
-        "text": "<p>Considerado por muchos como el primer psiquiatra, publica <em>'De praestigiis daemonum'</em>.</p><p><strong>Weyer</strong> argumentó audazmente que las mujeres acusadas de brujería eran en realidad personas que padecían enfermedades mentales, impulsando el retorno a una perspectiva médica y rechazando la inquisición.</p>"
+        "headline": "Johann Weyer: El Primer Psiquiatra",
+        "text": "<p><strong>Johann Weyer</strong> publica 'De praestigiis daemonum'. Rechazó la demonología y abogó por una explicación médica de los trastornos mentales. Considerado un pionero de la psiquiatría clínica y la descripción de síntomas.</p>"
       },
-      "group": "Institucionalización",
+      "group": "Reforma Médica",
       "background": {
-        "color": "#8b5cf6"
+        "color": "rgb(210, 250, 210)"
       }
     },
     {
@@ -124,16 +87,17 @@
         "year": "1793"
       },
       "media": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Pinel_a_la_Salpetriere.jpg/800px-Pinel_a_la_Salpetriere.jpg",
-        "caption": "Pinel liberando pacientes en La Salpêtrière."
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Pinel_a_la_Salpetriere.jpg",
+        "caption": "Cuadro de Philippe Pinel quitando las cadenas en la Salpêtrière.",
+        "credit": "Wikimedia Commons"
       },
       "text": {
         "headline": "Philippe Pinel y el Tratamiento Moral",
-        "text": "<p>En plena Revolución Francesa, <strong>Pinel</strong> ordena quitar las cadenas a los pacientes en el asilo de Bicêtre (y luego en La Salpêtrière).</p><p>Introduce el <strong>Tratamiento Moral</strong>, cambiando la visión del enfermo mental de un marginado a un paciente que requiere compasión, aire puro y observación médica sistematizada.</p>"
+        "text": "<p><strong>Philippe Pinel</strong> ordena liberar de sus cadenas a los enfermos mentales de los asilos parisinos. Introdujo el 'Tratamiento Moral', exigiendo humanismo y observación médica sistemática.</p>"
       },
-      "group": "Enfoque Clínico",
+      "group": "Reforma Asistencial",
       "background": {
-        "color": "#f59e0b"
+        "color": "rgb(255, 240, 190)"
       }
     },
     {
@@ -141,34 +105,35 @@
         "year": "1883"
       },
       "media": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Emil_Kraepelin.jpg/800px-Emil_Kraepelin.jpg",
-        "caption": "Emil Kraepelin."
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Emil_Kraepelin.jpg",
+        "caption": "Retrato de Emil Kraepelin.",
+        "credit": "Wikimedia Commons"
       },
       "text": {
-        "headline": "Emil Kraepelin y la Nosología Moderna",
-        "text": "<p>Publica su <em>'Compendio de Psiquiatría'</em>. Kraepelin es fundamental para la consolidación de la psicopatología científica al establecer una clasificación rigurosa de los trastornos.</p><p>Diferenció de forma crucial la <strong>dementia praecox</strong> (esquizofrenia) de la <strong>psicosis maníaco-depresiva</strong> basándose en criterios clínicos, causas y evolución del paciente.</p>"
+        "headline": "Emil Kraepelin: La Nosología Moderna",
+        "text": "<p>Publica su 'Compendio de Psiquiatría'. <strong>Emil Kraepelin</strong> clasificó los trastornos según síntomas, curso y pronóstico. Distinguió la esquizofrenia de la psicosis maníaco-depresiva.</p>"
       },
-      "group": "Enfoque Clínico",
+      "group": "Nosología Científica",
       "background": {
-        "color": "#f59e0b"
+        "color": "rgb(190, 230, 255)"
       }
     },
     {
       "start_date": {
-        "year": "1899"
+        "year": "1900"
       },
-      "display_date": "1899 - 1900",
       "media": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sigmund_Freud_LIFE.jpg/800px-Sigmund_Freud_LIFE.jpg",
-        "caption": "Sigmund Freud en su madurez."
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sigmund_Freud_LIFE.jpg",
+        "caption": "Retrato de Sigmund Freud.",
+        "credit": "Wikimedia Commons"
       },
       "text": {
-        "headline": "Freud y el Psicoanálisis",
-        "text": "<p>Se publica <em>'La interpretación de los sueños'</em>. <strong>Sigmund Freud</strong> revolucionó la psicopatología al introducir el modelo psicodinámico.</p><p>Argumentó que trastornos como la histeria y la neurosis tienen sus raíces en:</p><ul><li>Procesos inconscientes.</li><li>Mecanismos de defensa.</li><li>Traumas infantiles reprimidos.</li></ul>"
+        "headline": "Freud y el Inconsciente",
+        "text": "<p>Revoluciona la disciplina con el Psicoanálisis. <strong>Sigmund Freud</strong> introduce la idea de que los síntomas psicopatológicos tienen raíces en conflictos inconscientes.</p>"
       },
-      "group": "Consolidación",
+      "group": "Psicoanálisis",
       "background": {
-        "color": "#10b981"
+        "color": "rgb(210, 250, 210)"
       }
     },
     {
@@ -176,16 +141,17 @@
         "year": "1952"
       },
       "media": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/DSM-I_Cover.jpg/800px-DSM-I_Cover.jpg",
-        "caption": "Portada de la primera edición del DSM."
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/DSM-I_Cover.jpg",
+        "caption": "Portada de la primera edición del DSM.",
+        "credit": "Wikimedia Commons"
       },
       "text": {
-        "headline": "Publicación del Primer DSM",
-        "text": "<p>La <strong>Asociación Estadounidense de Psiquiatría (APA)</strong> publica la primera edición del <em>Manual Diagnóstico y Estadístico de los Trastornos Mentales (DSM-I)</em>.</p><blockquote>Esto marca la consolidación final de la psicopatología como disciplina científica universal.</blockquote><p>Proporcionó por primera vez un lenguaje común y estandarizado para la categorización y estudio de los trastornos mentales a nivel internacional.</p>"
+        "headline": "Publicación del DSM-I",
+        "text": "<p>La <strong>Asociación Estadounidense de Psiquiatría (APA)</strong> publica la primera edición del Manual Diagnóstico y Estadístico de los Trastornos Mentales, otorgando a la disciplina un lenguaje estandarizado.</p>"
       },
-      "group": "Consolidación",
+      "group": "Consolidación Científica",
       "background": {
-        "color": "#10b981"
+        "color": "rgb(255, 240, 190)"
       }
     }
   ]
